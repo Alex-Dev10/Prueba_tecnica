@@ -1,0 +1,20 @@
+.buttons{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   gap: 10px;
+   margin: 20px;
+}
+
+.buttons .btn{
+    background-color:  rgb(184, 243, 223);
+}
+
+.btn.selected {
+    background-color: rgb(51, 162, 199);
+    font-weight: bold;
+    border-bottom: 2px solid red;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+  }

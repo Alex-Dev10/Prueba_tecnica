@@ -1,0 +1,29 @@
+.addTodos{
+
+display: flex;
+justify-content: center;
+align-items: center; 
+padding: 15px;
+}
+
+
+
+.addTodos .btnAdd{
+   width: 60px; 
+   border-radius: 50%;
+   height: 60px;font-weight: 800;
+   background-color: rgb(191, 185, 194);
+   color: rgb(0, 0, 0);
+
+}
+
+
+.addTodos .btnAdd:hover{
+border: 1px solid rgb(51, 162, 199);
+color: rgb(51, 162, 199);
+ 
+ }
+
+ .modal-header{
+   background-color:  rgb(51, 162, 199);
+ }
